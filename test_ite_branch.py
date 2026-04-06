@@ -6,11 +6,9 @@ from interval import executeCommand
 def test_case1(executeCommand):
     """
     Expected output:
-        ---TEST CASE 1---
         ASSERT PASSED
         ASSERT PASSED
     """
-    print('---TEST CASE 1---')
     store = {'x': [-1, 1], 'y': [3, 5]}
     condition = BinaryComparisonOp(Var('x'), Const(0), '>=')
     then_statement = BinaryArithOp(Var('x'), Var('y'), '+')

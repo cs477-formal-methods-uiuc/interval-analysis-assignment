@@ -6,13 +6,11 @@ from interval import executeCommand
 def test_case1(executeCommand):
     """
     Expected output:
-        ---TEST CASE 1---
         ASSERT FAILED
         ASSERT PASSED
         ASSERT FAILED
         ASSERT PASSED
     """
-    print('---TEST CASE 1---')
     store = {'x': [-1, 1], 'y': [3, 5]}
 
     s1 = Assignment(Var('z'), BinaryArithOp(Var('x'), Var('y'), '*'))
