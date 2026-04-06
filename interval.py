@@ -33,19 +33,19 @@ def evaluateUnaryOp(store, lhs, op):
 def evaluateBinaryArithOp(store, lhs, rhs, op):
     """Evaluates a binary arithmetic operation on two intervals. See expression.py for supported ops."""
     # TODO
-    pass
+    raise NotImplementedError("evaluateBinaryArithOp not implemented")
 
 
 def evaluateBinaryComparisonOp(store, lhs, rhs, op):
     """Evaluates a binary comparison between two intervals. See expression.py for supported ops."""
     # TODO
-    pass
+    raise NotImplementedError("evaluateBinaryComparisonOp not implemented")
 
 
 def evaluateBinaryLogicalOp(store, lhs, rhs, op):
     """Evaluates a binary logical connective on two intervals. See expression.py for supported ops."""
     # TODO
-    pass
+    raise NotImplementedError("evaluateBinaryLogicalOp not implemented")
 
 
 def evaluateExpr(store, expr):
@@ -80,18 +80,18 @@ def executeSkip(store):
 def executeAssignment(store, command):
     """Evaluates the RHS expression and updates the store with the result."""
     # TODO
-    pass
+    raise NotImplementedError("executeAssignment not implemented")
 
 
 def executeSequence(store, command):
     """Executes two statements in order, threading the store through."""
     # TODO
-    pass
+    raise NotImplementedError("executeSequence not implemented")
 
 def executeIte(store, command):
     """Executes an if-then-else statement. See command.py for the command class definition."""
     # TODO
-    pass
+    raise NotImplementedError("executeIte not implemented")
 
 def executeAssert(store, command):
     """Evaluates the assertion expression and prints whether it passed or failed."""
