@@ -72,7 +72,7 @@ def evaluateExpr(store, expr):
         return None
 
 
-def executeSkip(store):
+def executeSkip(store, command):
     """Returns the store unchanged."""
     return store
 
